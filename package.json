@@ -1,0 +1,14 @@
+{
+  "name": "supplier-evidence-access-outcome-assurance-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "vitest run",
+    "check": "node --check src/server.mjs && node --check src/app.mjs"
+  },
+  "dependencies": { "express": "5.1.0" },
+  "devDependencies": { "supertest": "7.1.1", "vitest": "3.2.4" }
+}
